@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "source": {
+    "repository": "https://github.com/himmelblau-idm/himmelblau.git",
+    "version": "4.0.6",
+    "commit": "ae736f6dcc51e55f1ae4f1ced0c12a8ebc9ae009",
+    "target": "arm64-ubuntu26.04",
+    "architecture": "arm64",
+    "distribution": "resolute",
+    "revision": "+core2",
+    "patches": [
+      {
+        "file": "0001-nss-dynamic-identities.patch",
+        "sha256": "5ef76ff69a70fd27269263f9127e7aca8309e800394072bd2f84b56877d2f296",
+        "upstream_commit": "8531f6dd4b3a241a3d7b743dcff01f18202b1d7c"
+      },
+      {
+        "file": "0002-lazy-password-calibration.patch",
+        "sha256": "898ecc420c14b67b7b05d5c80c9bb67b347653b386a3f1db5b3a1b705e4b6d29",
+        "upstream_commit": "90a4e31d9c819b30836aa03afa8210bbb66cc860"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "name": "himmelblau-apparmor",
+      "version": "4.0.6-ubuntu26.04+core2",
+      "architecture": "arm64",
+      "filename": "himmelblau-apparmor_4.0.6-ubuntu26.04+core2_arm64.deb",
+      "sha256": "5d6994316a2eeac06f5f48e9a89f79afd3717324a77a0c39cc38f1998f9eb2b9",
+      "size": 2346
+    },
+    {
+      "name": "himmelblau-sshd-config",
+      "version": "4.0.6-ubuntu26.04+core2",
+      "architecture": "arm64",
+      "filename": "himmelblau-sshd-config_4.0.6-ubuntu26.04+core2_arm64.deb",
+      "sha256": "6daefbeab415aac112280f3d5c94f0d41abc6dfbba2511327f315265a118ac78",
+      "size": 1332
+    },
+    {
+      "name": "himmelblau",
+      "version": "4.0.6-ubuntu26.04+core2",
+      "architecture": "arm64",
+      "filename": "himmelblau_4.0.6-ubuntu26.04+core2_arm64.deb",
+      "sha256": "786e67d1fd791d1241ce2173bfbf9484522f5b3118401cb6c213624aab4d4016",
+      "size": 13753372
+    },
+    {
+      "name": "nss-himmelblau",
+      "version": "4.0.6-ubuntu26.04+core2",
+      "architecture": "arm64",
+      "filename": "nss-himmelblau_4.0.6-ubuntu26.04+core2_arm64.deb",
+      "sha256": "b31f13e2b81a32604519d672813864221880899c2fb02d4a403d5e98181237a2",
+      "size": 292008
+    },
+    {
+      "name": "pam-himmelblau",
+      "version": "4.0.6-ubuntu26.04+core2",
+      "architecture": "arm64",
+      "filename": "pam-himmelblau_4.0.6-ubuntu26.04+core2_arm64.deb",
+      "sha256": "73d06f32adda28f1330cd71d63d54a92196c962b3c59510d06b50686dd5143a5",
+      "size": 4640904
+    }
+  ]
+}
