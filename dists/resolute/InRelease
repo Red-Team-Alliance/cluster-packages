@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: arm64
+Codename: resolute
+Components: main
+Date: Sat, 17 Oct 2026 02:06:11 +0000
+Label: CORE stable Himmelblau
+Origin: The CORE Group
+Suite: resolute
+MD5Sum:
+ f295f8ec41c78f4516d6812924f690c4             3297 main/binary-arm64/Packages
+ f3c688070998c186bfd82c5b90668e0a             1118 main/binary-arm64/Packages.gz
+SHA1:
+ 223d9ccb401e47528ddf452a85665cd957e5a9e2             3297 main/binary-arm64/Packages
+ 8d7d4605fcb533c16880950fa1cc214afcc12478             1118 main/binary-arm64/Packages.gz
+SHA256:
+ 44987a734a5354b6a7832a99953d5c7c8b6714b46cd3c6842c903211c2d25bf4             3297 main/binary-arm64/Packages
+ 1776ef3f99ab799dd3fa1408077cca430bd1b3582ef4e97c8fb4012380280623             1118 main/binary-arm64/Packages.gz
+SHA512:
+ 9fef512942bdbeafaf78804f4291029508bd1bf7c60b34e133206e856e304ada965b74fa704bcea60e7862469482153951d1d21d442467d3bae71883117d9d70             3297 main/binary-arm64/Packages
+ 926bdffbcddfda68a3089f05010c953c3fe4d65151a7ce244db8f6cdb7a17f9035aa3febe7eb1f1c87e8ec48f74d824a8372bb35445012e75c69786c59b9ee0d             1118 main/binary-arm64/Packages.gz
+Valid-Until: Mon, 16 Nov 2026 02:06:11 UTC
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEBEBtUkA1idONIIX8GkUKW7e8VqQFAmrS2BMACgkQGkUKW7e8
+VqQpTA//QbIHfuwN3WMrXGm1ZYZdOJKCaNHKYQXK2GS+dtkc5DsZ8W4rfkJLNc5t
+3Z2ObmmufXTqsXaAmknLMczmtALfszoKh2wEfMVLjELm9FCRmJwXFW/tgaKnQtQz
+ssDy9YBQtQ5ivrTtk5HYcfMIWIzFlyFRU02BzGMTpNShMgFHtQ2h232TPRElV4G2
+6XQDmqvH1BF/PzTflHt8MIzzBVIiWIoeWmwbaGoyMz/SpnJgZ8znVchgpFsKDdDq
+rCDVmFyT2ptdwvbsC7YxdW0Jff1kznq46DNbtiAvFLWn+USNeqFuNNtDCtWHLH8k
+VPqmPrmlBOvMRmc8i/aNMpAW4mN0LHQzDJRneoRAbR4gzQq33C6c5ck41k1j/wq0
+AvOsg/St47Bo5TW7V7tWU379C4Ol1NV28LhsG5LJjTo0ivFQtu5xd8ztuCL8C2xQ
+COTyHNZKTIplnKY4RBi6VTg3RwkT3lmZQQWwrfDeB2G6gPx25ss8iIHbkArOPiWs
+/wh1z7S6rbtETLNCL/dF06fsR00AOgD3ycPDEmMAOrlG1WSjHK4MnDb4G4haLUPm
+67NR9o+a1y21l+EKAtutjgVfFTgFUhbsdWkVmkH/In5qyyavQgTTuLxccj9qMRhB
+78YbLp9Ty+riKwDAUfhdL7yoHZy6vAmpujGXRuyx+Tp/opK0e9s=
+=WBXN
+-----END PGP SIGNATURE-----

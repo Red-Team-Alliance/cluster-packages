@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "source": {
+    "repository": "https://github.com/himmelblau-idm/himmelblau.git",
+    "version": "4.0.6",
+    "commit": "ae736f6dcc51e55f1ae4f1ced0c12a8ebc9ae009",
+    "target": "arm64-ubuntu26.04",
+    "architecture": "arm64",
+    "distribution": "resolute",
+    "revision": "+core1"
+  },
+  "packages": [
+    {
+      "name": "himmelblau-apparmor",
+      "version": "4.0.6-ubuntu26.04+core1",
+      "architecture": "arm64",
+      "filename": "himmelblau-apparmor_4.0.6-ubuntu26.04+core1_arm64.deb",
+      "sha256": "de821381fdc618ca8c7879080db3017e39e0887cd833dcc8a6dd5604483dbf13",
+      "size": 2404
+    },
+    {
+      "name": "himmelblau-sshd-config",
+      "version": "4.0.6-ubuntu26.04+core1",
+      "architecture": "arm64",
+      "filename": "himmelblau-sshd-config_4.0.6-ubuntu26.04+core1_arm64.deb",
+      "sha256": "f5aa74a9b90ad67bfa34157b46677a8931d88e4c62e0593eafe5fdc4bec33d8a",
+      "size": 1332
+    },
+    {
+      "name": "himmelblau",
+      "version": "4.0.6-ubuntu26.04+core1",
+      "architecture": "arm64",
+      "filename": "himmelblau_4.0.6-ubuntu26.04+core1_arm64.deb",
+      "sha256": "c8c16fd7c7554b4477663b6a3ed46ee8e8d4a476395f5294bd8865dd02cc694f",
+      "size": 13759572
+    },
+    {
+      "name": "nss-himmelblau",
+      "version": "4.0.6-ubuntu26.04+core1",
+      "architecture": "arm64",
+      "filename": "nss-himmelblau_4.0.6-ubuntu26.04+core1_arm64.deb",
+      "sha256": "7d595501750dfcc125a3dc5558f5f5fba259b9bb62bd196cbf55a66856339e7d",
+      "size": 292352
+    },
+    {
+      "name": "pam-himmelblau",
+      "version": "4.0.6-ubuntu26.04+core1",
+      "architecture": "arm64",
+      "filename": "pam-himmelblau_4.0.6-ubuntu26.04+core1_arm64.deb",
+      "sha256": "dd0d569c080947e3a454c6191280906de2c8a4fa895bde27202af52479225c74",
+      "size": 4642996
+    }
+  ]
+}
