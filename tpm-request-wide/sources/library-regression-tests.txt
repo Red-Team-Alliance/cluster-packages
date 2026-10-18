@@ -1,5 +1,5 @@
 
-running 125 tests
+running 126 tests
 test auth::mfa_tests::active_method_resolution_always_uses_native_selection_policy ... ok
 test auth::mfa_tests::begin_auth_policy_denial_does_not_retry_or_fallback ... ok
 test auth::mfa_tests::empty_device_and_direct_code_flows_bypass_proof_lookup ... ok
@@ -47,6 +47,7 @@ test auth::tests::p2p_user_payload_redacts_refresh_token ... ok
 test auth::tests::p2p_user_payload_serializes_expected_fields ... ok
 test auth::tests::passwordless_fido_skipped_when_cross_device_passkey_and_sms_preferred ... ok
 test auth::tests::pkce_challenge_matches_rfc7636_vector ... ok
+test auth::tests::pref_credential_accepts_values_beyond_u8 ... ok
 test auth::tests::prt_deserialize_invalid ... ok
 test auth::tests::prt_serialize_deserialize ... ok
 test auth::tests::prt_serialize_deserialize_tgt_ad ... ok
@@ -126,5 +127,5 @@ test ssh::tests::ssh_certificate_response_rejects_mismatched_key_and_token_type 
 test ssh::tests::ssh_certificate_response_rejects_oversized_values ... ok
 test ssh::tests::ssh_token_response_accepts_numeric_strings ... ok
 
-test result: ok. 124 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 3.37s
+test result: ok. 125 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 3.39s
 

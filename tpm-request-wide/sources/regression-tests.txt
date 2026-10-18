@@ -1,7 +1,7 @@
 warning: himmelblau_unix_common@4.0.6: Generated config_gen.rs successfully
    Compiling libhimmelblau v0.8.43 (/himmelblau/src/overrides/libhimmelblau/0.8.43)
    Compiling himmelblau_unix_common v4.0.6 (/himmelblau/src/common)
-    Finished `release` profile [optimized] target(s) in 1m 11s
+    Finished `release` profile [optimized] target(s) in 1m 09s
 warning: the following packages contain code that will be rejected by a future version of Rust: binrw v0.15.0
 note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
      Running unittests src/lib.rs (target/release/deps/himmelblau_unix_common-5f93f500717ffe33)
@@ -18,7 +18,7 @@ test db::tests::test_cache_db_group_rename_duplicate ... ok
 test db::tests::test_cache_db_migrate_invalidates_legacy_account_expiry_once ... ok
 test db::tests::test_clear_hello_keys ... ok
 
-test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 224 filtered out; finished in 5.32s
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 224 filtered out; finished in 7.32s
 
 warning: himmelblau_unix_common@4.0.6: Generated config_gen.rs successfully
     Finished `release` profile [optimized] target(s) in 0.20s
@@ -43,7 +43,7 @@ test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 226 filtered out; fi
 warning: himmelblau_unix_common@4.0.6: Generated config_gen.rs successfully
    Compiling himmelblau_unix_common v4.0.6 (/himmelblau/src/common)
    Compiling nss_himmelblau v4.0.6 (/himmelblau/src/nss)
-    Finished `release` profile [optimized] target(s) in 1m 03s
+    Finished `release` profile [optimized] target(s) in 1m 00s
 warning: the following packages contain code that will be rejected by a future version of Rust: binrw v0.15.0
 note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
      Running unittests src/lib.rs (target/release/deps/nss_himmelblau-87eab4131b594675)

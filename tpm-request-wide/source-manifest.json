@@ -7,7 +7,7 @@
     "target": "arm64-ubuntu26.04",
     "architecture": "arm64",
     "distribution": "resolute",
-    "revision": "+core3.requestwide1",
+    "revision": "+core3.requestwide2",
     "patches": [
       {
         "file": "0001-nss-dynamic-identities.patch",
@@ -22,49 +22,54 @@
       {
         "file": "0003-tpm-request-wide.patch",
         "sha256": "94f2d20349ee10d6d8a6a0e7bd239f8fbc8482619f05e84cd2e11680962a8329"
+      },
+      {
+        "file": "0004-prefcredential-range.patch",
+        "sha256": "af63e78cdfd82e5ee6d716bd05b4061d1f16003aa5f038ebddecbba61350b4b9",
+        "upstream_commit": "4dcdc96b15a909edd7f8b86f45f399012df47e15"
       }
     ]
   },
   "packages": [
     {
       "name": "himmelblau-apparmor",
-      "version": "4.0.6-ubuntu26.04+core3.requestwide1",
+      "version": "4.0.6-ubuntu26.04+core3.requestwide2",
       "architecture": "arm64",
-      "filename": "himmelblau-apparmor_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb",
-      "sha256": "8d5822541ba53e3a1e54133f8fbd93c3f7b55ff1e315c8e6f77413b78474cee5",
-      "size": 2350
+      "filename": "himmelblau-apparmor_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb",
+      "sha256": "0a47d54e88848206c89aa9e03cd3781daa8c98ac9a5554263ea477d1550d2d44",
+      "size": 2346
     },
     {
       "name": "himmelblau-sshd-config",
-      "version": "4.0.6-ubuntu26.04+core3.requestwide1",
+      "version": "4.0.6-ubuntu26.04+core3.requestwide2",
       "architecture": "arm64",
-      "filename": "himmelblau-sshd-config_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb",
-      "sha256": "edf7e383b468934e8c36421332a386c54365274ba49e50cba4afc4ee16dc13f2",
+      "filename": "himmelblau-sshd-config_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb",
+      "sha256": "d8bbd585407f8e47686ea6b1548366db7a8d5c30774b6df3dcab1a371443702c",
       "size": 1340
     },
     {
       "name": "himmelblau",
-      "version": "4.0.6-ubuntu26.04+core3.requestwide1",
+      "version": "4.0.6-ubuntu26.04+core3.requestwide2",
       "architecture": "arm64",
-      "filename": "himmelblau_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb",
-      "sha256": "76c06042cb37653003e4266667dc12dce144b40badcdced16361c16d844b4c43",
-      "size": 13755812
+      "filename": "himmelblau_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb",
+      "sha256": "97513ddcc1609f5bacade7ab6d01baac075dfc7b73eac984464db02a120eddd3",
+      "size": 13761192
     },
     {
       "name": "nss-himmelblau",
-      "version": "4.0.6-ubuntu26.04+core3.requestwide1",
+      "version": "4.0.6-ubuntu26.04+core3.requestwide2",
       "architecture": "arm64",
-      "filename": "nss-himmelblau_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb",
-      "sha256": "42f10c2a2c224aeb6fff38cbe692599ff655aeb95a7fd221e6fb4bc43eb43019",
-      "size": 291920
+      "filename": "nss-himmelblau_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb",
+      "sha256": "b7b8cc27370cd9e76638f6f08361c386a851617465d58cfa0cae288525ba7174",
+      "size": 292004
     },
     {
       "name": "pam-himmelblau",
-      "version": "4.0.6-ubuntu26.04+core3.requestwide1",
+      "version": "4.0.6-ubuntu26.04+core3.requestwide2",
       "architecture": "arm64",
-      "filename": "pam-himmelblau_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb",
-      "sha256": "509ed28cee0e684ccca0ac853def596a930cb1ebaa0030c13a260d95d6103f4a",
-      "size": 4645068
+      "filename": "pam-himmelblau_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb",
+      "sha256": "f3deb94fb8ec127036ad453f8d7d3b2690567b802b5b9a863c5cd183604184b2",
+      "size": 4646212
     }
   ]
 }

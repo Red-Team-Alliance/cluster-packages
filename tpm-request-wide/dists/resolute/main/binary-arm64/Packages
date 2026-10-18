@@ -1,80 +1,80 @@
 Package: himmelblau
-Version: 4.0.6-ubuntu26.04+core3.requestwide1
+Version: 4.0.6-ubuntu26.04+core3.requestwide2
 Architecture: arm64
 Maintainer: David Mulder <dmulder@suse.com>
 Installed-Size: 52640
 Depends: libc6 (>= 2.39), libdbus-1-3 (>= 1.10), libsqlite3-0 (>= 3.7.15), libssl3t64 (>= 3.0.0), libtss2-esys-3.0.2-0t64 (>= 2.3.1), libtss2-mu-4.0.1-0t64 (>= 3.0.1), libtss2-tctildr0t64 (>= 3.0.1), libudev1 (>= 183)
 Recommends: nss-himmelblau, pam-himmelblau, krb5-user, cron, tpm2-tools, himmelblau-apparmor
 Suggests: himmelblau-orchestrator
-Filename: pool/main/h/himmelblau/himmelblau_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb
-Size: 13755812
-MD5sum: 2306d49dc94a89970661f3f827010f5a
-SHA1: bfa27ee877186d791599600edccee7db46357cb5
-SHA256: 76c06042cb37653003e4266667dc12dce144b40badcdced16361c16d844b4c43
+Filename: pool/main/h/himmelblau/himmelblau_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb
+Size: 13761192
+MD5sum: 41ab2a91bdf2750c41aa930d5627dae7
+SHA1: 5ada7b5efe5c00d51fdf29e6812e6faa5a3d0b79
+SHA256: 97513ddcc1609f5bacade7ab6d01baac075dfc7b73eac984464db02a120eddd3
 Priority: optional
 Homepage: https://github.com/himmelblau-idm/himmelblau
 Description: Himmelblau Authentication Daemon
 
 Package: himmelblau-apparmor
-Version: 4.0.6-ubuntu26.04+core3.requestwide1
+Version: 4.0.6-ubuntu26.04+core3.requestwide2
 Architecture: arm64
 Maintainer: David Mulder <dmulder@suse.com>
 Installed-Size: 14
 Depends: apparmor
 Breaks: pam-himmelblau (<= 4.0.0-ubuntu26.04~20260518)
 Replaces: pam-himmelblau (<= 4.0.0-ubuntu26.04~20260518)
-Filename: pool/main/h/himmelblau/himmelblau-apparmor_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb
-Size: 2350
-MD5sum: a09f0184ab489e07e13ab7713cefe465
-SHA1: 166566f737034209cfcf0584613d35523b8ce536
-SHA256: 8d5822541ba53e3a1e54133f8fbd93c3f7b55ff1e315c8e6f77413b78474cee5
+Filename: pool/main/h/himmelblau/himmelblau-apparmor_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb
+Size: 2346
+MD5sum: fee550b5eb6fceabeb775bffd76e2117
+SHA1: 2af1785edf1d3e0b5224a4d574d0bd5bccf9ed14
+SHA256: 0a47d54e88848206c89aa9e03cd3781daa8c98ac9a5554263ea477d1550d2d44
 Priority: optional
 Homepage: https://github.com/himmelblau-idm/himmelblau
 Description: Himmelblau AppArmor config
 
 Package: himmelblau-sshd-config
-Version: 4.0.6-ubuntu26.04+core3.requestwide1
+Version: 4.0.6-ubuntu26.04+core3.requestwide2
 Architecture: arm64
 Maintainer: David Mulder <dmulder@suse.com>
 Installed-Size: 4
 Depends: openssh-server
-Filename: pool/main/h/himmelblau/himmelblau-sshd-config_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb
+Filename: pool/main/h/himmelblau/himmelblau-sshd-config_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb
 Size: 1340
-MD5sum: 1480e6d8d2abc393771648ee607bf142
-SHA1: 29a055528a366e419a7da9fe257ed9dec3a30b97
-SHA256: edf7e383b468934e8c36421332a386c54365274ba49e50cba4afc4ee16dc13f2
+MD5sum: 5728a4df80178a4c6ea26af355627863
+SHA1: a0dbfbc074d31a2e6e482cf3d4141a606370be05
+SHA256: d8bbd585407f8e47686ea6b1548366db7a8d5c30774b6df3dcab1a371443702c
 Priority: optional
 Homepage: https://github.com/himmelblau-idm/himmelblau
 Description: Himmelblau Required SSHD Configuration
 
 Package: nss-himmelblau
-Version: 4.0.6-ubuntu26.04+core3.requestwide1
+Version: 4.0.6-ubuntu26.04+core3.requestwide2
 Architecture: arm64
 Maintainer: David Mulder <dmulder@suse.com>
 Installed-Size: 843
 Depends: libc6 (>= 2.39), libdbus-1-3 (>= 1.10), libnss-systemd, libsqlite3-0 (>= 3.7.15), libssl3t64 (>= 3.0.0), libudev1 (>= 183)
-Filename: pool/main/h/himmelblau/nss-himmelblau_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb
-Size: 291920
-MD5sum: f104ae31a34354d0d9a1037d2219500c
-SHA1: d0e049ff0a167925abd4e8fe268865017ec819d1
-SHA256: 42f10c2a2c224aeb6fff38cbe692599ff655aeb95a7fd221e6fb4bc43eb43019
+Filename: pool/main/h/himmelblau/nss-himmelblau_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb
+Size: 292004
+MD5sum: 39ebf7837ca0df9895c7fe538d1f2b94
+SHA1: a5b743472cd82f303236bf2303ca6636e73dc014
+SHA256: b7b8cc27370cd9e76638f6f08361c386a851617465d58cfa0cae288525ba7174
 Priority: optional
 Multi-Arch: same
 Homepage: https://github.com/himmelblau-idm/himmelblau
 Description: Himmelblau NSS Module
 
 Package: pam-himmelblau
-Version: 4.0.6-ubuntu26.04+core3.requestwide1
+Version: 4.0.6-ubuntu26.04+core3.requestwide2
 Architecture: arm64
 Maintainer: David Mulder <dmulder@suse.com>
 Installed-Size: 17951
 Depends: libc6 (>= 2.39), libdbus-1-3 (>= 1.10), libpam0g (>= 0.99.7.1), libsqlite3-0 (>= 3.7.15), libssl3t64 (>= 3.0.0), libudev1 (>= 183)
 Recommends: patch
-Filename: pool/main/h/himmelblau/pam-himmelblau_4.0.6-ubuntu26.04+core3.requestwide1_arm64.deb
-Size: 4645068
-MD5sum: 31bcf6b43dd542f08ce2a407c6cd023e
-SHA1: 1ae5daa86e371c5ecb8452431c142db952f65f28
-SHA256: 509ed28cee0e684ccca0ac853def596a930cb1ebaa0030c13a260d95d6103f4a
+Filename: pool/main/h/himmelblau/pam-himmelblau_4.0.6-ubuntu26.04+core3.requestwide2_arm64.deb
+Size: 4646212
+MD5sum: 19a1867d6926a44f3f40c9b3779fd375
+SHA1: 65251b75959950377b1a3601e73825d00921c795
+SHA256: f3deb94fb8ec127036ad453f8d7d3b2690567b802b5b9a863c5cd183604184b2
 Priority: optional
 Multi-Arch: same
 Homepage: https://github.com/himmelblau-idm/himmelblau
