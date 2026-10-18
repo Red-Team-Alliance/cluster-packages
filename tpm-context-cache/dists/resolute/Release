@@ -1,0 +1,20 @@
+Architectures: arm64
+Codename: resolute
+Components: main
+Date: Sun, 18 Oct 2026 00:32:11 +0000
+Label: CORE stable Himmelblau
+Origin: The CORE Group
+Suite: resolute
+MD5Sum:
+ eb963aee4395a859b81db4d352d3342f             3549 main/binary-arm64/Packages
+ 4028e635bba5302e9522fca24adbdbb3             1161 main/binary-arm64/Packages.gz
+SHA1:
+ 227514d172dcadc36a6e50ccd914feb1e1e18812             3549 main/binary-arm64/Packages
+ 859b7f02f3a5d57bcafd454a54580d024973a7f6             1161 main/binary-arm64/Packages.gz
+SHA256:
+ f2737a82ab0c75a88b78debf15546307ce10e6a2651faa460e1142117a86b62f             3549 main/binary-arm64/Packages
+ 4da20777239c758934df9a0a94cf145dd8e35988e03aaf1d9db2797f5f7c7d7e             1161 main/binary-arm64/Packages.gz
+SHA512:
+ 5a65f42811b285ca8aeb7933eda2d810033ba2d7c8600c9275f09490db05a09971aed2048ff76b17c02c4767457d85d1305508783c4a949b1156c6955690625b             3549 main/binary-arm64/Packages
+ 68ccdaf3120b0839b504ecc6ebbfb0eda59be89cb7d6feea0646483a1e54d9f66be2db551cfb76af41e0198389e1264b5f8cc4d40a1bf23a68575f23b386fd7b             1161 main/binary-arm64/Packages.gz
+Valid-Until: Tue, 17 Nov 2026 00:32:11 UTC

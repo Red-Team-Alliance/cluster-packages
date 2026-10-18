@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "source": {
+    "repository": "https://github.com/himmelblau-idm/himmelblau.git",
+    "version": "4.0.6",
+    "commit": "ae736f6dcc51e55f1ae4f1ced0c12a8ebc9ae009",
+    "target": "arm64-ubuntu26.04",
+    "architecture": "arm64",
+    "distribution": "resolute",
+    "revision": "+core3.contextcache1",
+    "patches": [
+      {
+        "file": "0001-nss-dynamic-identities.patch",
+        "sha256": "5ef76ff69a70fd27269263f9127e7aca8309e800394072bd2f84b56877d2f296",
+        "upstream_commit": "8531f6dd4b3a241a3d7b743dcff01f18202b1d7c"
+      },
+      {
+        "file": "0002-lazy-password-calibration.patch",
+        "sha256": "898ecc420c14b67b7b05d5c80c9bb67b347653b386a3f1db5b3a1b705e4b6d29",
+        "upstream_commit": "90a4e31d9c819b30836aa03afa8210bbb66cc860"
+      },
+      {
+        "file": "0003-tpm-context-cache.patch",
+        "sha256": "4ba2fe345ad74d8ff3d85ec5d52fad3f454350db1d8ebccfcffaf73e615261d3"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "name": "himmelblau-apparmor",
+      "version": "4.0.6-ubuntu26.04+core3.contextcache1",
+      "architecture": "arm64",
+      "filename": "himmelblau-apparmor_4.0.6-ubuntu26.04+core3.contextcache1_arm64.deb",
+      "sha256": "7f67b1ed1db58e7440d3647f9a934bf6a8492d5ef9a0bf1cdae2535f42c54f09",
+      "size": 2358
+    },
+    {
+      "name": "himmelblau-sshd-config",
+      "version": "4.0.6-ubuntu26.04+core3.contextcache1",
+      "architecture": "arm64",
+      "filename": "himmelblau-sshd-config_4.0.6-ubuntu26.04+core3.contextcache1_arm64.deb",
+      "sha256": "03f1d7b41733b6ef5dfdf343491122922bdf9462ec5d8430b989932e1a917ac6",
+      "size": 1336
+    },
+    {
+      "name": "himmelblau",
+      "version": "4.0.6-ubuntu26.04+core3.contextcache1",
+      "architecture": "arm64",
+      "filename": "himmelblau_4.0.6-ubuntu26.04+core3.contextcache1_arm64.deb",
+      "sha256": "3ea50e62950f8e0da3ce6884651d890005619009ca2902d79b8f38faf91c3ad4",
+      "size": 13757828
+    },
+    {
+      "name": "nss-himmelblau",
+      "version": "4.0.6-ubuntu26.04+core3.contextcache1",
+      "architecture": "arm64",
+      "filename": "nss-himmelblau_4.0.6-ubuntu26.04+core3.contextcache1_arm64.deb",
+      "sha256": "6ef7e873b4683e8000fadd1496f8460995bb9efb37ba2d4968ee75950be754bd",
+      "size": 293180
+    },
+    {
+      "name": "pam-himmelblau",
+      "version": "4.0.6-ubuntu26.04+core3.contextcache1",
+      "architecture": "arm64",
+      "filename": "pam-himmelblau_4.0.6-ubuntu26.04+core3.contextcache1_arm64.deb",
+      "sha256": "fc180e85d7c75dda5e42723a25f12ed1d0387a6a37a0041670b7a09576870d11",
+      "size": 4641040
+    }
+  ]
+}

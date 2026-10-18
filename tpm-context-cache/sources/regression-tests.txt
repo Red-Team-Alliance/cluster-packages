@@ -1,0 +1,64 @@
+warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
+package:   /himmelblau/src/overrides/kanidm-hsm-crypto/0.3.6/Cargo.toml
+workspace: /himmelblau/Cargo.toml
+warning: himmelblau_unix_common@4.0.6: Generated config_gen.rs successfully
+   Compiling libhimmelblau v0.8.43 (/himmelblau/src/overrides/libhimmelblau/0.8.43)
+   Compiling himmelblau_unix_common v4.0.6 (/himmelblau/src/common)
+    Finished `release` profile [optimized] target(s) in 1m 07s
+warning: the following packages contain code that will be rejected by a future version of Rust: binrw v0.15.0
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running unittests src/lib.rs (target/release/deps/himmelblau_unix_common-c76bae032e1cf2fc)
+
+running 10 tests
+test db::tests::invalid_hsm_machine_key_is_not_treated_as_missing ... ok
+test db::tests::opening_and_migrating_database_does_not_calibrate_password_hashing ... ok
+test db::tests::test_cache_db_account_basic ... ok
+test db::tests::test_cache_db_account_group_update ... ok
+test db::tests::test_cache_db_account_password ... ok
+test db::tests::test_cache_db_account_rename_duplicate ... ok
+test db::tests::test_cache_db_group_basic ... ok
+test db::tests::test_cache_db_group_rename_duplicate ... ok
+test db::tests::test_cache_db_migrate_invalidates_legacy_account_expiry_once ... ok
+test db::tests::test_clear_hello_keys ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 224 filtered out; finished in 4.37s
+
+warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
+package:   /himmelblau/src/overrides/kanidm-hsm-crypto/0.3.6/Cargo.toml
+workspace: /himmelblau/Cargo.toml
+warning: himmelblau_unix_common@4.0.6: Generated config_gen.rs successfully
+    Finished `release` profile [optimized] target(s) in 0.19s
+warning: the following packages contain code that will be rejected by a future version of Rust: binrw v0.15.0
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running unittests src/lib.rs (target/release/deps/himmelblau_unix_common-c76bae032e1cf2fc)
+
+running 8 tests
+test config::tests::test_map_name_to_upn_add_domain ... ok
+test config::tests::test_map_name_to_upn_empty_is_none ... ok
+test config::tests::test_map_name_to_upn_ignored_names_are_none ... ok
+test config::tests::test_map_name_to_upn_local_user ... ok
+test config::tests::test_map_name_to_upn_local_user_wins_over_ignore_list ... ok
+test config::tests::test_map_name_to_upn_no_mapping ... ok
+test config::tests::test_map_name_to_upn_prefix_does_not_overmatch ... ok
+test config::tests::test_map_name_to_upn_script_execution_success ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 226 filtered out; finished in 0.01s
+
+warning: profiles for the non root package will be ignored, specify profiles at the workspace root:
+package:   /himmelblau/src/overrides/kanidm-hsm-crypto/0.3.6/Cargo.toml
+workspace: /himmelblau/Cargo.toml
+ Downloading crates ...
+  Downloaded libnss v0.9.0
+warning: himmelblau_unix_common@4.0.6: Generated config_gen.rs successfully
+   Compiling himmelblau_unix_common v4.0.6 (/himmelblau/src/common)
+   Compiling nss_himmelblau v4.0.6 (/himmelblau/src/nss)
+    Finished `release` profile [optimized] target(s) in 59.88s
+warning: the following packages contain code that will be rejected by a future version of Rust: binrw v0.15.0
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running unittests src/lib.rs (target/release/deps/nss_himmelblau-b55d48c63eabf534)
+
+running 1 test
+test implementation::tests::dynamic_ids_return_not_found_without_daemon_access ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 11 filtered out; finished in 0.00s
+
