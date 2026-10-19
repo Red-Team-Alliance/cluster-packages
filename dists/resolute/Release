@@ -1,7 +1,7 @@
 Architectures: arm64
 Codename: resolute
 Components: main
-Date: Sat, 17 Oct 2026 19:49:46 +0000
+Date: Mon, 19 Oct 2026 15:42:40 +0000
 Label: CORE stable Himmelblau
 Origin: The CORE Group
 Suite: resolute
@@ -17,4 +17,4 @@ SHA256:
 SHA512:
  9fef512942bdbeafaf78804f4291029508bd1bf7c60b34e133206e856e304ada965b74fa704bcea60e7862469482153951d1d21d442467d3bae71883117d9d70             3297 main/binary-arm64/Packages
  926bdffbcddfda68a3089f05010c953c3fe4d65151a7ce244db8f6cdb7a17f9035aa3febe7eb1f1c87e8ec48f74d824a8372bb35445012e75c69786c59b9ee0d             1118 main/binary-arm64/Packages.gz
-Valid-Until: Mon, 16 Nov 2026 19:49:46 UTC
+Valid-Until: Wed, 18 Nov 2026 15:42:40 UTC
